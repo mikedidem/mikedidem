@@ -1,16 +1,95 @@
-## Hi there 👋
+# Michael Edidem
 
-<!--
-**mikedidem/mikedidem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+PhD Researcher | Spatial AI & Geospatial Machine Learning Engineer  
+Southern Illinois University Carbondale
 
-Here are some ideas to get you started:
+I work at the intersection of **Geospatial AI**, **hydrologic and environmental modeling**, and
+**physics-guided machine learning**, developing scalable, data-driven systems for analyzing
+groundwater–surface water interactions, elevation-derived hydrography, and environmental
+decision-support workflows.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My work bridges **research and engineering**, translating advanced machine learning methods
+into reproducible, high-performance geospatial pipelines.
+
+---
+
+## Research & Engineering Interests
+- Spatial AI and spatiotemporal deep learning
+- Physics-guided and theory-guided machine learning
+- Groundwater and surface water modeling (MODFLOW)
+- Elevation-derived hydrography and drainage network analysis
+- Remote sensing, LiDAR, and DEM-based modeling
+- GeoAI-enabled decision-support systems for environmental sustainability
+
+---
+
+## Current Work
+- Developing **ML/DL surrogate models** (Transformers, GNNs, PINNs) for groundwater head
+  prediction using large-scale MODFLOW simulation outputs for water resource management decisions
+- Designing **physics-guided neural networks** that preserve hydrologic consistency while
+  significantly reducing computational cost
+- Building **GeoAI pipelines** for extracting and classifying drainage crossings and
+  hydrographic features from high-resolution DEMs for contiguous USA
+
+
+---
+
+## Engineering Focus
+- Scalable geospatial machine learning pipelines for raster and vector data
+- Automated data ingestion, preprocessing, and model training workflows
+- Performance optimization of deep learning models for large geospatial datasets
+- Reproducible, version-controlled GeoAI systems for collaborative research and deployment
+
+---
+
+## Selected Projects (Research & Engineering)
+
+### Soil Swin-UNet
+Deep learning–based soil and land-surface segmentation using Swin-UNet architectures.  
+Primary developer within GeoFewLab.
+
+- 🔗 Personal fork: https://github.com/mikedidem/soil  
+
+---
+
+### Groundwater Simulation & Prediction
+Large-scale groundwater modeling and scenario-based prediction for Nebraska using MODFLOW
+integrated with machine learning surrogate models.
+
+**Technologies:** MODFLOW-2005, FloPy, Python, CNN, Transformer-based models, PINNs
+
+---
+
+### GeoAI-Based Drainage Crossing Detection
+End-to-end deep learning pipelines (U-Net, CM-UNet, Faster R-CNN, YOLOv5, Transformer models)
+for detecting drainage crossings from elevation-derived hydrographic data, supporting
+infrastructure monitoring and hydrographic mapping.
+
+---
+
+## Publications (Selected)
+- Edidem, M. et al. (2025). *Identification of Drainage Crossings on High-Resolution Digital
+  Elevation Models Using Explanatory Deep Learning Approaches*. **Frontiers in Artificial Intelligence**.
+- Edidem, M. et al. (2025). *GeoAI-based Drainage Crossing Detection for Elevation-derived
+  Hydrographic Mapping*. **Environmental Modelling & Software**.
+- Wu, D., Li, R., Edidem, M., et al. (2024). *Enhancing Hydrologic LiDAR DEMs: Bridging
+  Hydrographic Gaps at Fine Scales*. **JAWRA**.
+- Wu, D., Li, R., Edidem, M., et al. (2023). *Classification of Drainage Crossings on
+  High-resolution DEMs*. **GIScience & Remote Sensing**.
+
+---
+
+## Technical Expertise
+- **Programming & ML:** Python, PyTorch, TensorFlow
+- **Geospatial & GIS:** GeoPandas, Rasterio, GDAL, ArcGIS Pro, ERDAS Imagine, Google Earth Engine
+- **Databases & Systems:** PostGIS, Git
+- **Hydrologic Modeling:** MODFLOW, FloPy
+- **Remote Sensing & CV:** LiDAR/DEM analysis, deep learning for geospatial imagery
+- **Engineering Practices:** scalable data pipelines, model optimization, reproducible ML workflows
+
+---
+---
+
+## Contact
+- Email: edidemichael@gmail.com  
+- GitHub: https://github.com/mikedidem
