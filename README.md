@@ -68,14 +68,22 @@ infrastructure monitoring and hydrographic mapping.
 ---
 
 ## Publications (Selected)
-- Edidem, M. et al. (2025). *Identification of Drainage Crossings on High-Resolution Digital
-  Elevation Models Using Explanatory Deep Learning Approaches*. **Frontiers in Artificial Intelligence**.
-- Edidem, M. et al. (2025). *GeoAI-based Drainage Crossing Detection for Elevation-derived
-  Hydrographic Mapping*. **Environmental Modelling & Software**.
-- Wu, D., Li, R., Edidem, M., et al. (2024). *Enhancing Hydrologic LiDAR DEMs: Bridging
-  Hydrographic Gaps at Fine Scales*. **JAWRA**.
-- Wu, D., Li, R., Edidem, M., et al. (2023). *Classification of Drainage Crossings on
-  High-resolution DEMs*. **GIScience & Remote Sensing**.
+
+- **Edidem, M. et al. (2025).**  
+  *[Identification of Drainage Crossings on High-Resolution Digital Elevation Models Using Explanatory Deep Learning Approaches](https://doi.org/10.3389/frai.2025.1561281)*  
+  **Frontiers in Artificial Intelligence**
+
+- **Edidem, M. et al. (2025).**  
+  *[GeoAI-based Drainage Crossing Detection for Elevation-derived Hydrographic Mapping](https://doi.org/10.1016/j.envsoft.2025.106338)*  
+  **Environmental Modelling & Software**
+
+- **Wu, D., Li, R., Edidem, M., et al. (2024).**  
+  *[Enhancing Hydrologic LiDAR DEMs: Bridging Hydrographic Gaps at Fine Scales](https://doi.org/10.1111/1752-1688.13239)*  
+  **JAWRA – Journal of the American Water Resources Association**
+
+- **Wu, D., Li, R., Edidem, M., et al. (2023).**  
+  *[Classification of Drainage Crossings on High-resolution DEMs](https://doi.org/10.1080/15481603.2023.2230706)*  
+  **GIScience & Remote Sensing**
 
 ---
 
