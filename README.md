@@ -9,7 +9,7 @@
 
 - 🔭 I'm currently researching **Geospatial AI**, **hydrologic and environmental modeling**, and **physics-guided machine learning**
 - 🧭 I translate elevation data, satellite imagery, and hydrologic simulation into reproducible, high-performance geospatial pipelines for environmental decision-support
-- 📚 PhD Researcher in Geographic Information Systems and Environmental Modeling, Southern Illinois University Carbondale — M.S. Geography & Environmental Resources (Spec. Geospatial AI), 2024 — B.S. Geoinformatics and Surveying, University of Uyo, Nigeria, 2018
+- 📚 PhD Researcher in Geographic Information Systems and Environmental Modeling, Southern Illinois University Carbondale — M.S. Geography & Environmental Resources (Spec. Geospatial AI), 2024 — B.S. Geoinformatics and Surveying, University of Uyo, Nigeria, 2019
 - 🌎 I'm open to **collaborations** across GIScience, GeoAI, hydrology, and environmental sustainability
 - 💬 Ask me about **Geospatial AI**, **physics-guided ML**, **LiDAR/DEM analysis**, or **drainage & hydrography detection**
 - ✨ *Vision:* **"Turning elevation data and hydrologic signal into decisions that protect the ground and water beneath us — where physics, geospatial AI, and environmental stewardship meet."**
