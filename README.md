@@ -121,6 +121,22 @@ Swin-UNet experiments for drought forecasting across remote-sensing drought indi
 ![OpenStreetMap](https://img.shields.io/badge/-OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
 ![PostGIS](https://img.shields.io/badge/-PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
 
+**Cloud geospatial workflows**
+![xarray](https://img.shields.io/badge/-xarray-1F6B75?style=flat-square)
+![Dask](https://img.shields.io/badge/-Dask-FC6E6B?style=flat-square&logo=dask&logoColor=white)
+![Zarr](https://img.shields.io/badge/-Zarr-2D8C72?style=flat-square)
+![STAC](https://img.shields.io/badge/-STAC-4C7D99?style=flat-square)
+
+**Geospatial foundation models**
+![TorchGeo](https://img.shields.io/badge/-TorchGeo-3B7A57?style=flat-square)
+![TerraTorch](https://img.shields.io/badge/-TerraTorch-5D4C9B?style=flat-square)
+
+**Research software & deployment**
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
 **Environmental modeling**
 ![MODFLOW](https://img.shields.io/badge/-MODFLOW-00639C?style=flat-square)
 ![FloPy](https://img.shields.io/badge/-FloPy-00639C?style=flat-square)
