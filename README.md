@@ -11,7 +11,7 @@ I build machine-learning methods for mapping infrastructure and modeling environ
 
 With a background in geomatics, I bring a spatial perspective to machine learning, connecting terrain, remote sensing and environmental modeling in my research.
 
-- 🔭 Currently exploring **geospatial foundation-model embeddings** and **physics-informed neural operators**.
+- 🔭 Currently exploring **multimodal geospatial representation learning**, with a focus on Earth foundation-model embeddings, multimodal feature extraction and infrastructure mapping across regions.
 - 💬 Ask me about **LiDAR/DEM analysis, drainage crossings, groundwater surrogates**, or making models easier to evaluate.
 - 📚 M.S., Geography & Environmental Resources (Geospatial AI), SIUC, **2024** · B.S., Geoinformatics & Surveying, University of Uyo, **2019**.
 
@@ -91,7 +91,7 @@ Swin-UNet experiments for drought forecasting across remote-sensing drought indi
 
 ## 🔬 Current research
 
-- **Geospatial representation learning:** testing whether Earth foundation-model embeddings transfer infrastructure information across regions.
+- **Multimodal geospatial representation learning:** investigating multimodal feature extraction and whether Earth foundation-model embeddings capture infrastructure information that transfers across regions.
 - **Neural groundwater surrogates:** investigating finite-volume, physics-informed neural operators and tradeoffs between accuracy, physical consistency and computational cost.
 
 ## 🛠️ Tools & tech stack
