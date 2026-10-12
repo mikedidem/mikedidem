@@ -146,7 +146,7 @@ My earlier work includes enterprise GIS and UAV inspection at a power utility, a
 
 ## 🌐 Let’s connect
 
-I’m interested in research roles and collaborations in **GeoAI, scientific ML and Earth observation** as I prepare to graduate in 2027.
+I’m interested in research roles and collaborations in **GeoAI, scientific ML and Earth observation**.
 
 - 🌍 [Explore my portfolio](https://mikedidem.github.io/medidem/)
 - 📄 [Download my CV](https://mikedidem.github.io/medidem/cv/Michael_Edidem_CV.pdf)
