@@ -1,108 +1,55 @@
-<!-- GitHub Profile README for mikedidem -->
+# Michael Edidem
 
-<h1 align="center">Hi there 👋, I'm Michael Edidem</h1>
-<h3 align="center">PhD Researcher @ Southern Illinois University Carbondale</h3>
+**Geospatial AI · Scientific machine learning · Environmental systems**<br>
+PhD researcher at Southern Illinois University Carbondale · Expected graduation **2027**
 
----
+[Portfolio](https://mikedidem.github.io/medidem/) · [CV](https://mikedidem.github.io/medidem/cv/Michael_Edidem_CV.pdf) · [Publications](https://mikedidem.github.io/medidem/publications/) · [Email](mailto:edidemichael@gmail.com)
 
-### 🌟 About Me
+I build machine-learning methods for mapping infrastructure and modeling environmental systems. My work asks two connected questions: **what can we infer from geospatial data, and when can we trust a model’s predictions?**
 
-- 🔭 I'm currently researching **Geospatial AI**, **hydrologic and environmental modeling**, and **physics-guided machine learning**
-- 🧭 I translate elevation data, satellite imagery, and hydrologic simulation into reproducible, high-performance geospatial pipelines for environmental decision-support
-- 📚 PhD Researcher in Geographic Information Systems and Environmental Modeling, Southern Illinois University Carbondale — M.S. Geography & Environmental Resources (Spec. Geospatial AI), 2024 — B.S. Geoinformatics and Surveying, University of Uyo, Nigeria, 2019
-- 🌎 I'm open to **collaborations** across GIScience, GeoAI, hydrology, and environmental sustainability
-- 💬 Ask me about **Geospatial AI**, **physics-guided ML**, **LiDAR/DEM analysis**, or **drainage & hydrography detection**
-- ✨ *Vision:* **"Turning elevation data and hydrologic signal into decisions that protect the ground and water beneath us — where physics, geospatial AI, and environmental stewardship meet."**
-- 📄 [View my CV](https://mikedidem.github.io/medidem/cv/Edidem_Michael_CV_adademic_2026.pdf)
-- 📫 Reach me at: `edidemichael@gmail.com`
+I started in surveying and applied GIS before moving into research. That background informs how I work with terrain, imagery and simulation data: the geography and physics matter as much as the model.
 
----
+## Selected work
 
-<!-- 🌐 Research Framework -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mikedidem/medidem/master/images/research-framework.svg"
-       alt="Michael's Geospatial AI Research Framework" width="900"/>
-</p>
+### Groundwater surrogates: accuracy and conservation
 
----
+[**gw_surrogate_evaluation**](https://github.com/mikedidem/gw_surrogate_evaluation) · Lead author & developer · Manuscript under review
 
-## 🐍 Contribution Activity
+A surrogate can reproduce hydraulic head at **R² > 0.999** and still fail to conserve water. I built a diagnostic framework comparing CNN, ConvLSTM and PINN surrogates against MODFLOW-2005 on two synthetic aquifers, measuring predictive error, governing-equation residuals, boundary behavior and mass balance together.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/mikedidem/mikedidem/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="GitHub Contribution Snake"
-         src="https://raw.githubusercontent.com/mikedidem/mikedidem/output/github-contribution-grid-snake.svg"
-         width="100%" />
-  </picture>
-</p>
+The repository includes reproducible evaluators, benchmark configurations and tests. [Case study](https://mikedidem.github.io/medidem/projects/groundwater-surrogates/)
 
----
+### CHIRRP: groundwater scenarios in plain language
 
-## 📝 Selected Projects
+[**chirrp**](https://github.com/mikedidem/chirrp) · Co-author & repository maintainer · Manuscript under review
 
-### Soil Swin-UNet
-Deep learning–based soil and land-surface segmentation using Swin-UNet architectures, applied to drought forecasting across remote-sensing drought indices. Primary developer within GeoFewLab.
-- 🔗 https://github.com/mikedidem/soil
+A deployed research application connecting natural-language scenario requests to a physics-informed groundwater surrogate, with regulation retrieval and an on-demand MODFLOW cross-check. Its CPU surrogate evaluation is approximately **238× faster than MODFLOW** in the reported benchmark; this is distinct from end-to-end interaction time.
 
-### Groundwater Simulation & Prediction
-Large-scale groundwater modeling and scenario-based prediction for Nebraska, integrating MODFLOW with ML surrogate models for water-resource management decisions.
-**Technologies:** MODFLOW-2005, FloPy, Python, CNN, Transformer-based models, PINNs
+**PyTorch · FastAPI · Angular · Docker · RAG**<br>
+[Live demo](https://morule-hydro.hf.space) · [Case study](https://mikedidem.github.io/medidem/projects/chirrp/)
 
-### GeoAI-Based Drainage Crossing Detection
-End-to-end deep learning pipelines (U-Net, CM-UNet, Faster R-CNN, YOLOv5, Transformer models) for detecting drainage crossings from elevation-derived hydrographic data, supporting infrastructure monitoring and hydrographic mapping across the contiguous USA.
-- 🔗 https://github.com/mikedidem/Drainage_CrossingDet
+### Drainage crossings: finding what terrain hides
 
----
+[**Detection code**](https://github.com/GeoFewLab/Drainage_CrossingDet) · [**Classification code**](https://github.com/GeoFewLab/Drainge_CrossingClassification) · First author of two 2025 papers
 
-## 📚 Publications
+Culverts and bridges are often missing from elevation-derived stream networks. My research uses high-resolution LiDAR DEMs and terrain derivatives to classify and locate drainage crossings, with Grad-CAM to examine the features driving predictions. The best classification configuration reached **97.9% accuracy within the study watershed**; geographic transfer is a separate research question.
 
-- **Edidem, M.**, Xu, B., Li, R., Wu, D., Rekabdar, B., Wang, G. (2025). *[Identification of Drainage Crossings on High-Resolution Digital Elevation Models Using Explanatory Deep Learning Approaches](https://doi.org/10.3389/frai.2025.1561281)*. **Frontiers in Artificial Intelligence**
-- **Edidem, M.**, Li, R., Wu, D., Rekabdar, B., Wang, G. (2025). *[GeoAI-based Drainage Crossing Detection for Elevation-derived Hydrographic Mapping](https://doi.org/10.1016/j.envsoft.2025.106338)*. **Environmental Modelling & Software**
-- Nazeri, A., Godwin, D.W., Panteleaki, A.M., Anagnostopoulos, I., **Edidem, M.**, Li, R., Shu, T. (2025). *[Exploration of TPU Architectures for the Optimized Transformer in Drainage Crossing Detection](https://doi.org/10.1109/BigData62323.2024.10826077)*. Proceedings of 2024 IEEE International Conference on Big Data
-- Wu, D., Li, R., **Edidem, M.**, Wang, G. (2024). *[Enhancing Hydrologic LiDAR Digital Elevation Models: Bridging Hydrographic Gaps at Fine Scales](https://doi.org/10.1111/1752-1688.13239)*. **JAWRA – Journal of the American Water Resources Association**
-- Wu, D., Li, R., Talbert, C., **Edidem, M.**, Rekabdar, B., Wang, G. (2023). *[Classification of Drainage Crossings on High-resolution Digital Elevation Models: A Deep Learning Approach](https://doi.org/10.1080/15481603.2023.2230706)*. **GIScience & Remote Sensing**, 60:1
+[Detection paper](https://doi.org/10.1016/j.envsoft.2025.106338) · [Classification paper](https://doi.org/10.3389/frai.2025.1561281) · [Case study](https://mikedidem.github.io/medidem/projects/drainage-crossing-detection/)
 
----
+## Current research
 
-#### 🛠️ Tools & Tech Stack
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Transformers](https://img.shields.io/badge/-Transformers-FFD43B?style=flat-square&logo=huggingface&logoColor=black)
-![TensorBoard](https://img.shields.io/badge/-TensorBoard-FFA500?style=flat-square&logo=tensorflow&logoColor=white)
-![GeoPandas](https://img.shields.io/badge/-GeoPandas-139C5A?style=flat-square&logo=pandas&logoColor=white)
-![Rasterio](https://img.shields.io/badge/-Rasterio-2E7D32?style=flat-square)
-![GDAL](https://img.shields.io/badge/-GDAL-2E7D32?style=flat-square)
-![ArcGIS Pro](https://img.shields.io/badge/-ArcGIS%20Pro-4479A1?style=flat-square&logo=esri&logoColor=white)
-![QGIS](https://img.shields.io/badge/-QGIS-589632?style=flat-square&logo=qgis&logoColor=white)
-![ERDAS Imagine](https://img.shields.io/badge/-ERDAS%20Imagine-6B4C9A?style=flat-square)
-![Google Earth Engine](https://img.shields.io/badge/-Earth%20Engine-34A853?style=flat-square&logo=googleearth&logoColor=white)
-![Leaflet](https://img.shields.io/badge/-Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
-![OpenStreetMap](https://img.shields.io/badge/-OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
-![PostGIS](https://img.shields.io/badge/-PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MODFLOW](https://img.shields.io/badge/-MODFLOW-00639C?style=flat-square)
-![FloPy](https://img.shields.io/badge/-FloPy-00639C?style=flat-square)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Colab](https://img.shields.io/badge/-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black)
-![VS Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+- **Geospatial representation learning:** testing whether Earth foundation-model embeddings transfer infrastructure information across regions.
+- **Neural groundwater surrogates:** investigating finite-volume, physics-informed neural operators and tradeoffs between accuracy, physical consistency and computational cost.
 
----
+## Methods & tools
 
-### 🌐 Let's Connect
+| Area | Tools and methods I use |
+| :--- | :--- |
+| Scientific ML | PyTorch, CNNs, ConvLSTMs, PINNs, PDE and mass-balance diagnostics |
+| Geospatial data | GeoPandas, Rasterio, GDAL, PostGIS, Google Earth Engine, ArcGIS Pro |
+| Environmental modeling | MODFLOW-2005, FloPy, terrain derivatives, hydrographic analysis |
+| Research software | Git, pytest, reproducible experiment pipelines, FastAPI, Docker |
 
-- 🌐 Portfolio: [mikedidem.github.io/medidem](https://mikedidem.github.io/medidem/)
-- 💻 GitHub: [mikedidem](https://github.com/mikedidem)
-- 📧 Email: edidemichael@gmail.com
+My earlier work includes enterprise GIS and UAV inspection at a power utility, and a 2025 CDM Smith internship involving AI-based wetland delineation and Bayesian PFAS modeling. My M.S. thesis received SIUC’s university-wide Outstanding Thesis Award for 2025–2026.
 
----
-
-_✨ This profile README is auto-displayed from the `mikedidem/mikedidem` special repo._
+I’m interested in research roles and collaborations in **GeoAI, scientific ML and Earth observation** as I prepare to graduate in 2027. [Get in touch](mailto:edidemichael@gmail.com).
