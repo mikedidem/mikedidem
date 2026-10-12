@@ -13,7 +13,7 @@ I develop geospatial AI and scientific machine-learning methods to turn imagery,
 
 With a background in geomatics, I bring a spatial perspective to machine learning, connecting terrain, remote sensing and environmental modeling in my research.
 
-- 🔭 Currently exploring **multimodal geospatial representation learning**, with a focus on geospatial foundation (GF) models, multimodal feature extraction and learning from sparse, heterogeneous geospatial data.
+- 🔭 Currently exploring **multimodal geospatial representation learning** and **neural surrogates**, with a focus on geospatial foundation (GF) models, multimodal feature extraction and learning from sparse, heterogeneous geospatial data.
 - 💬 Ask me about **LiDAR/DEM analysis, drainage crossings, groundwater surrogates**, or making models easier to evaluate.
 - 📚 M.S., Geography & Environmental Resources (Geospatial AI), SIUC, **2024** · B.S., Geoinformatics & Surveying, University of Uyo, **2019**.
 
