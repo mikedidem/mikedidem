@@ -7,7 +7,9 @@
 
 ## 🌟 About me
 
-I build machine-learning methods for mapping infrastructure and modeling environmental systems. My work asks two connected questions: **what can we infer from geospatial data, and when can we trust a model’s predictions?**
+**If we could observe every place on Earth, every day, what could we learn about how our planet changes—and how we shape it?**
+
+I develop geospatial AI and scientific machine-learning methods to turn imagery, terrain and simulation data into useful knowledge about infrastructure and environmental systems. My research explores how we can learn from sparse, heterogeneous observations and build predictions we can trust.
 
 With a background in geomatics, I bring a spatial perspective to machine learning, connecting terrain, remote sensing and environmental modeling in my research.
 
