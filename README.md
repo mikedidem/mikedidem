@@ -7,7 +7,7 @@
 
 ## 🌟 About me
 
-**If we could observe every place on Earth, every day, what could we learn about how our planet changes—and how we shape it?**
+**If we could observe every place on Earth, every day, what could we learn about how our planet changes—and how it shapes us?**
 
 I develop geospatial AI and scientific machine-learning methods to turn imagery, terrain and simulation data into useful knowledge about infrastructure and environmental systems. My research explores how we can learn from sparse, heterogeneous observations and build predictions we can trust.
 
