@@ -17,7 +17,7 @@ With a background in geomatics, I bring a spatial perspective to machine learnin
 - 💬 Ask me about **LiDAR/DEM analysis, drainage crossings, groundwater surrogates**, or making models easier to evaluate.
 - 📚 M.S., Geography & Environmental Resources (Geospatial AI), SIUC, **2024** · B.S., Geoinformatics & Surveying, University of Uyo, **2019**.
 
-✨ **My guiding idea:** “Turning elevation data and hydrologic signal into decisions that protect the ground and water beneath us — where physics, geospatial AI, and environmental stewardship meet.”
+✨ **My guiding idea:** “Learning from Earth’s complexity to build models we can trust and knowledge we can act on.”
 
 ---
 
