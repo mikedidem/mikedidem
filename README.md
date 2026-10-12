@@ -21,8 +21,8 @@ With a background in geomatics, I bring a spatial perspective to machine learnin
 
 <!-- 🌐 Research Framework -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mikedidem/medidem/master/images/research-framework.svg"
-       alt="Michael's Geospatial AI Research Framework" width="900"/>
+  <img src="assets/research-framework.svg"
+       alt="Geospatial AI connects multimodal representation learning, scientific machine learning, remote sensing and computer vision, and environmental decision support" width="900"/>
 </p>
 
 
