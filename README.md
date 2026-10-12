@@ -9,10 +9,7 @@
 
 I build machine-learning methods for mapping infrastructure and modeling environmental systems. My work asks two connected questions: **what can we infer from geospatial data, and when can we trust a model’s predictions?**
 
-I started in surveying and applied GIS before moving into research. That background informs how I work with terrain, imagery and simulation data: the geography and physics matter as much as the model.
-
 - 🔭 Currently exploring **geospatial foundation-model embeddings** and **physics-informed neural operators**.
-- 🧭 From surveying and applied GIS to research in **GeoAI and environmental modeling**.
 - 💬 Ask me about **LiDAR/DEM analysis, drainage crossings, groundwater surrogates**, or making models easier to evaluate.
 - 📚 M.S., Geography & Environmental Resources (Geospatial AI), SIUC, **2024** · B.S., Geoinformatics & Surveying, University of Uyo, **2019**.
 
