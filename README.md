@@ -3,7 +3,7 @@
 <p align="center"><strong>Geospatial AI · Scientific machine learning · Environmental systems</strong><br>PhD Researcher @ Southern Illinois University Carbondale · Expected graduation <strong>2027</strong></p>
 
 
-[🌍 Portfolio](https://mikedidem.github.io/medidem/) · [📄 CV](https://mikedidem.github.io/medidem/cv/Michael_Edidem_CV.pdf) · [📚 Publications](https://mikedidem.github.io/medidem/publications/) · [📫 Email](mailto:edidemichael@gmail.com)
+[🌍 Portfolio](https://mikedidem.github.io/medidem/) · [📄 CV](https://docs.google.com/document/d/14kdMcDqHZe-kClINae_WIguH0JzedVTGU_pMqHedfeI/edit?usp=sharing) · [📚 Publications](https://mikedidem.github.io/medidem/publications/) · [📫 Email](mailto:edidemichael@gmail.com)
 
 ## 🌟 About me
 
@@ -167,5 +167,5 @@ My earlier work includes enterprise GIS and UAV inspection at a power utility, a
 I’m interested in research roles and collaborations in **GeoAI, scientific ML and Earth observation**.
 
 - 🌍 [Explore my portfolio](https://mikedidem.github.io/medidem/)
-- 📄 [Download my CV](https://mikedidem.github.io/medidem/cv/Michael_Edidem_CV.pdf)
+- 📄 [View my CV](https://docs.google.com/document/d/14kdMcDqHZe-kClINae_WIguH0JzedVTGU_pMqHedfeI/edit?usp=sharing)
 - 📫 [edidemichael@gmail.com](mailto:edidemichael@gmail.com)
