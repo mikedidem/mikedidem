@@ -1,19 +1,19 @@
 <h1 align="center">Hi there 👋, I'm Michael Edidem</h1>
 
-<p align="center"><strong>Geospatial AI · Scientific machine learning · Environmental systems</strong><br>PhD Researcher @ Southern Illinois University Carbondale · Expected graduation <strong>2027</strong></p>
+<p align="center"><strong>Geospatial AI · Scientific Machine Learning · Computational AI</strong><br>PhD Researcher @ Southern Illinois University Carbondale · Expected graduation <strong>2027</strong></p>
 
 
 [🌍 Portfolio](https://mikedidem.github.io/medidem/) · [📄 CV](https://docs.google.com/document/d/14kdMcDqHZe-kClINae_WIguH0JzedVTGU_pMqHedfeI/edit?usp=sharing) · [📚 Publications](https://mikedidem.github.io/medidem/publications/) · [📫 Email](mailto:edidemichael@gmail.com)
 
 ## 🌟 About me
 
-**If we could observe every place on Earth, every day, what could we learn about how our planet changes—and how it shapes us?**
+I develop and evaluate AI and computational methods for scientific problems, translating complex physical and geospatial challenges into reproducible machine-learning systems and decision-support tools.
 
-I develop geospatial AI and scientific machine-learning methods to turn imagery, terrain and simulation data into useful knowledge about infrastructure and environmental systems. My research explores how we can learn from sparse, heterogeneous observations and build predictions we can trust.
+My work spans computer vision, scientific machine learning, numerical simulation, and model evaluation. My ongoing research extends into multimodal AI, vision-language models, and agentic workflows, with an emphasis on integration and reliability.
 
 With a background in geomatics, I bring a spatial perspective to machine learning, connecting terrain, remote sensing and environmental modeling in my research.
 
-- 🔭 Currently exploring **multimodal geospatial representation learning** and **neural surrogates**, with a focus on geospatial foundation (GF) models, multimodal feature extraction and learning from sparse, heterogeneous geospatial data.
+- 🔭 Currently exploring **multimodal geospatial representation learning, scientific ML, vision-language models and agentic scientific workflows**. New VLM and agent projects are **in development**.
 - 💬 Ask me about **LiDAR/DEM analysis, drainage crossings, groundwater surrogates**, or making models easier to evaluate.
 - 📚 M.S., Geography & Environmental Resources (Geospatial AI), SIUC, **2024** · B.S., Geoinformatics & Surveying, University of Uyo, **2019**.
 
@@ -55,11 +55,13 @@ The repository includes reproducible evaluators, benchmark configurations and te
 
 ### 🌊 CHIRRP: groundwater scenarios in plain language
 
-[**chirrp**](https://github.com/mikedidem/chirrp) · Co-author & repository maintainer · Manuscript under review
+[**chirrp**](https://github.com/mikedidem/chirrp) · Technical lead · Second author · Manuscript under review
 
-A deployed research application connecting natural-language scenario requests to a physics-informed groundwater surrogate, with regulation retrieval and an on-demand MODFLOW cross-check. Its CPU surrogate evaluation is approximately **238× faster than MODFLOW** in the reported benchmark; this is distinct from end-to-end interaction time.
+I led the technical build of a deployed research application connecting natural-language scenario requests to a physics-informed groundwater surrogate, with regulation retrieval and an on-demand MODFLOW cross-check. Its CPU surrogate evaluation is approximately **238× faster than MODFLOW** in the reported benchmark; this is distinct from end-to-end interaction time.
 
-**PyTorch · FastAPI · Angular · Docker · RAG**<br>
+The application integrates LangGraph scenario parsing, RAG and validated computational inputs. Its reported scenario-parsing test set recorded **16 correct outcomes in 16 cases**, including handling ambiguous and out-of-range requests.
+
+**PyTorch · FastAPI · Angular · Docker · LangGraph · RAG**<br>
 [Live demo](https://morule-hydro.hf.space) · [Case study](https://mikedidem.github.io/medidem/projects/chirrp/)
 
 ### 🛰️ Drainage crossings: finding what terrain hides
@@ -93,8 +95,23 @@ Swin-UNet experiments for drought forecasting across remote-sensing drought indi
 
 ## 🔬 Current research
 
-- **Multimodal geospatial representation learning:** investigating how geospatial foundation models and multimodal feature extraction can support learning from sparse, heterogeneous data, including infrastructure mapping across regions.
-- **Neural groundwater surrogates:** investigating finite-volume, physics-informed neural operators and tradeoffs between accuracy, physical consistency and computational cost.
+### 🌍 Multimodal Geospatial Representation Learning
+
+How can we learn from sparse, heterogeneous geospatial data? I investigate geospatial foundation model embeddings, multimodal feature extraction and generalization.
+
+### 💧 Scientific Machine Learning for Environmental Systems
+
+Developing and evaluating computational approaches for environmental simulation, with particular attention to predictive accuracy, physical consistency, model behavior, and generalization across different conditions.
+
+### 🛰️ Multimodal AI for Terrain Correction
+*In development*
+
+Developing a multimodal AI framework combining vision-language models, terrain deep learning and hydrologic simulation to automate and verify DEM corrections at culverts and bridges.
+
+### 🧩 Agentic AI for Scientific Workflows
+*In development*
+
+Developing and evaluating AI agents for scientific and computational workflows, with an emphasis on integrating tools, executing computational tasks, and assessing reliability.
 
 ## 🛠️ Tools & tech stack
 
@@ -151,20 +168,27 @@ Swin-UNet experiments for drought forecasting across remote-sensing drought indi
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
-### Where the tools show up
+### ⚙️ ML Engineering & Deployment
 
-| Area | Tools and methods I use |
-| :--- | :--- |
-| Scientific ML | PyTorch, CNNs, ConvLSTMs, PINNs, PDE and mass-balance diagnostics |
-| Geospatial data | GeoPandas, Rasterio, GDAL, PostGIS, Google Earth Engine, ArcGIS Pro |
-| Environmental modeling | MODFLOW-2005, FloPy, terrain derivatives, hydrographic analysis |
-| Research software | Git, pytest, reproducible experiment pipelines, FastAPI, Docker |
+**Model development:** Python, PyTorch, TensorFlow · Reproducible training and evaluation pipelines
+
+**Software & deployment:** Docker, FastAPI, REST APIs · Git/GitHub, pytest · Model inference and application integration
+
+**Scientific computing:** GPU-based training, HPC workflows, computational benchmarking · SCALE-Sim accelerator performance simulation
+
+**Shown in:** [CHIRRP](https://mikedidem.github.io/medidem/projects/chirrp/) · [Groundwater evaluation package](https://github.com/mikedidem/gw_surrogate_evaluation) · [Accelerator simulations](https://doi.org/10.1109/BigData62323.2024.10826077)
+
+### 🔬 Scientific Machine Learning
+
+Physics-informed and data-driven surrogate modeling · Neural operators and spatiotemporal prediction · PDE-residual, boundary-condition, and mass-balance diagnostics · MODFLOW-2005, FloPy
+
+**Shown in:** [Groundwater conservation diagnostics](https://mikedidem.github.io/medidem/projects/groundwater-surrogates/) · [CHIRRP](https://mikedidem.github.io/medidem/projects/chirrp/)
 
 My earlier work includes enterprise GIS and UAV inspection at a power utility, and a 2025 CDM Smith internship involving AI-based wetland delineation and Bayesian PFAS modeling. My M.S. thesis received SIUC’s university-wide Outstanding Thesis Award for 2025–2026.
 
 ## 🌐 Let’s connect
 
-I’m interested in research roles and collaborations in **GeoAI, scientific ML and Earth observation**.
+I’m interested in research roles and collaborations in **applied AI, GeoAI, scientific ML and Earth observation**.
 
 - 🌍 [Explore my portfolio](https://mikedidem.github.io/medidem/)
 - 📄 [View my CV](https://docs.google.com/document/d/14kdMcDqHZe-kClINae_WIguH0JzedVTGU_pMqHedfeI/edit?usp=sharing)
