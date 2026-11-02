@@ -184,8 +184,6 @@ Physics-informed and data-driven surrogate modeling · Neural operators and spat
 
 **Shown in:** [Groundwater conservation diagnostics](https://mikedidem.github.io/medidem/projects/groundwater-surrogates/) · [CHIRRP](https://mikedidem.github.io/medidem/projects/chirrp/)
 
-My earlier work includes enterprise GIS and UAV inspection at a power utility, and a 2025 CDM Smith internship involving AI-based wetland delineation and Bayesian PFAS modeling. My M.S. thesis received SIUC’s university-wide Outstanding Thesis Award for 2025–2026.
-
 ## 🌐 Let’s connect
 
 I’m interested in research roles and collaborations in **applied AI, GeoAI, scientific ML and Earth observation**.
