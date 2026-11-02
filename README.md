@@ -24,7 +24,7 @@ With a background in geomatics, I bring a spatial perspective to machine learnin
 <!-- 🌐 Research Framework -->
 <p align="center">
   <img src="assets/research-framework.svg"
-       alt="Geospatial AI connects multimodal representation learning, scientific machine learning, remote sensing and computer vision, and environmental decision support" width="900"/>
+       alt="Computational AI connects geospatial intelligence, computer vision and multimodal AI, scientific machine learning and simulation, and AI systems and scientific applications" width="900"/>
 </p>
 
 
